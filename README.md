@@ -3,6 +3,8 @@ Latrine
 
 [Locus Map](http://www.locusmap.eu/) Android GPS live tracking server script
 
+![ScreenShot](http://i.imgur.com/0QjqnmD.jpg)
+
 ==== THIS IS ALPHA SOFTWARE - USE AT YOUR OWN RISKS ====
 
 Latrine is a minimalist GPS live tracking server script.
@@ -43,12 +45,25 @@ Example:
 
 	http://localhost/cgi-bin/latrine.pl?key=OnMyBike&view=1
 
+Reply:
+
+	{
+	  "lat": "45.09",
+	  "lon": "6.07",
+	  "alt": "0",
+	  "speed": "4.16666667",
+	  "bearing": "0",
+	  "acc": "5",
+	  "time": "1375194859",
+	  "now": "1375195150"
+	}
+
 
 ### Show map
 
 	http://<SERVER>/latrine.html?#<KEY>
 
-[Example](http://imgur.com/RkcIopH):
+Example:
 
 	http://localhost/latrine.html?#OnMyBike
 
@@ -57,9 +72,17 @@ Example:
 Installation
 ------------
 
-1.) Adjust the storage location `my $store = '/tmp/latrine/';` in `latrine.pl`
-2.) Adjust the location (URL) to your Perl script `var perlScript = 'latrine.pl';` in `latrine.html`
+1.) Adjust the storage location `my $store = '/tmp/latrine/';` in `latrine.pl`.
+
+2.) Adjust the location (URL) to your Perl script `var perlScript = 'latrine.pl';` in `latrine.html`.
+
 3.) Upload `latrine.pl` and `latrine.html` onto your web server. The Perl script `latrine.pl` must be executable by the web server.
+
+4.) Configure Locus Map. Do not forget the key.
+
+![LocusMap](http://i.imgur.com/m9jxS1t.png)
+
+5.) Go out :+1: 
 
 
 Sample Configuration for Mac OS X
