@@ -5,13 +5,11 @@ Latrine
 
 ![ScreenShot](http://i.imgur.com/0QjqnmD.jpg)
 
-==== THIS IS ALPHA SOFTWARE - USE AT YOUR OWN RISKS ====
-
 Latrine is a minimalist GPS live tracking server script.
 It is very easy to set up and requires no database.
 All you need is a web server which can execute Perl scripts.
 
-More information on the live tracking feature of Locus Map Pro can be found on its [documentation web page](http://docs.locusmap.eu/doku.php/manual:live_tracking).
+More information on the live tracking feature of Locus Map Pro can be found on its [documentation web page](http://docs.locusmap.eu/doku.php?id=manual:user_guide:functions:live_tracking#web_services).
 
 
 Features
